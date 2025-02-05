@@ -1,13 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Python 3
-05 / 07 / 2024
-@author: z_tjona
-
-"I find that I don't understand things unless I try to program them."
--Donald E. Knuth
-"""
-
 # ----------------------------- logging --------------------------
 import logging
 from sys import stdout
@@ -209,7 +199,7 @@ def matriz_aumentada(A: np.ndarray, b: np.ndarray) -> np.ndarray:
 
     ## Return
 
-    ``Ab``: matriz aumentada.
+    ``a``:
 
     """
     if not isinstance(A, np.ndarray):
